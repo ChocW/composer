@@ -1,0 +1,16 @@
+{
+    "name": "julien/composer",
+    "authors": [
+        {
+            "name": "ChocW",
+            "email": "julienduartep@gmail.com"
+        }
+    ],
+    "require": {
+        "ehime/hello-world":"*"
+    },
+    "autoload": {
+        "psr-4": 
+        {"App\\Wcs\\": "./src/wcs"}
+    }
+}
